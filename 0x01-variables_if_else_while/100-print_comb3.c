@@ -13,14 +13,14 @@ int main(void)
 	{
 		for (ones = '0'; ones <= '9'; ones++)/* prints ones digit*/
                 {
-			if (!((one == tens) || (tens > ones)))/*eliminates repitition*/
+			if (!((ones == tens) || (tens > ones)))/*eliminates repitition*/
 			{
 				putchar (tens);
 				putchar (ones);
-				if (! (ones == '9' && tens == '8'))/*adds comma and space*/
+				if (!(ones == '9' && tens == '8'))/*adds comma and space*/
 				{
-                                       putchar(',');
-                                       putchar('');
+					putchar(',');
+				       	putchar(' ');
 				}
 			}
 		}
