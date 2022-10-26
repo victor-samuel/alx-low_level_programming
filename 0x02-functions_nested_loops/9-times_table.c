@@ -1,6 +1,7 @@
 #include "main.h"
+#include <stdio.h>
 /**
- *
+ *times_table - prints the multiplication table
  */
 void times_table(void)
 {
@@ -9,7 +10,7 @@ void times_table(void)
 	{
 		for (j = 0; j < 10; j++)
 		{
-			_putchar((i * j) + '0');
+			_putchar(i * j);
 			_putchar(',');
 		}
 		_putchar('\n');
