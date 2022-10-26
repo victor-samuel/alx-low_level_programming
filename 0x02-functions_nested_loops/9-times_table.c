@@ -12,18 +12,15 @@ void times_table(void)
 		{
 			if ( i < 9 && j < 9)
 			{
-				_putchar((i * j) + '0');
+				_putchar(((i * j) / 10) + '0');
+				_putchar(((i * j) % 10) + '0');
 				_putchar(',');
 			}
 			else
 			{
-				_putchar((i * j) + '0');
-				_putchar('\n');
-			}
-			if (i * j >=10)
-			{
 				_putchar(((i * j) / 10) + '0');
 				_putchar(((i * j) % 10) + '0');
+				_putchar('\n');
 			}
 		}
 	}
