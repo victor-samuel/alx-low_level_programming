@@ -24,6 +24,6 @@ void times_table(void)
                 {       
                         printf("%d" ,mat [i] [j]);
                 }
-		print('\n');
+		_putchar('\n');
         }
 }
