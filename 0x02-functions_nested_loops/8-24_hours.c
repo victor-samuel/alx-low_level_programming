@@ -1,8 +1,6 @@
 #include "main.h"
 /**
  * jack_bauer -prints 24 hours
- * @i: integer arg for hours
- * @j: integer arg for minutes
  */
 void jack_bauer(void)
 {
@@ -36,7 +34,5 @@ void jack_bauer(void)
 			}
 			_putchar('\n');
 		}
-	
 	}
 }
-			
