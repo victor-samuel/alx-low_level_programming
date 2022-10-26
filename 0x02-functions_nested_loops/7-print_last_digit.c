@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * print_last_digit - print the last number in an integer
- * @n,@x: passed arguments
- * Returns: returns the value of last digit
+ * @n: passed argument
+ * Return: returns the value of last digit
  */
 int print_last_digit(int n)
 {
@@ -14,4 +14,8 @@ int print_last_digit(int n)
 	x = n % 10;
 	_putchar(x + '0');
 	return (x);
+	else
+		x = n % 10;
+	-putchar(x + '0')
+		return(x);
 }
