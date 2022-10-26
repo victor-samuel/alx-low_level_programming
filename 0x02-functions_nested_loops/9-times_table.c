@@ -20,7 +20,12 @@ void times_table(void)
 				_putchar((i * j) + '0');
 				_putchar('\n');
 			}
+			if (i * j >=10)
+			{
+				_putchar(((i * j) / 10) + '0');
+				_putchar(((i * j) % 10) + '0');
+			}
 		}
 	}
-	}
+}
 
