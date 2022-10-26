@@ -7,24 +7,17 @@
  */
 void times_table(void)
 {
-	int i, j;
-	int mat [SIZE] [SIZE];
-
-	for (i = 0; i < SIZE; i++)
-	{
-		for (j = 0; j < SIZE; j++)
-		{
-			mat [i] [j]= i * j;
-		}
-	}
-
-	for (i = 0; i < SIZE; i++)
-        {       
-                for (j = 0; j < SIZE; j++)
-                {       
-                        printf("%d" ,mat [i] [j]);
-                }
-		_putchar('\n');
-        }
-	return (0);
+	int i, j, product;
+	 clrscr();
+	
+	 /* Generating Multiplication Table */
+	 for(i=1;i<=10;i++)
+	 {
+		  for(j=1;j<=10;j++)
+		  {
+			   product = i*j;
+			   printf("%d\t" , product);
+		  }
+		  printf("\n");
+	 }
 }
