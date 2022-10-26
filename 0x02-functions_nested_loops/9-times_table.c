@@ -14,7 +14,7 @@ void times_table(void)
 		  for(j = 0;j <= 9; j++)
 		  {
 			   product = i*j;
-			   printf("%d", , product);
+			   printf("%d",  product);
 		  }
 		  printf("\n");
 	 }
