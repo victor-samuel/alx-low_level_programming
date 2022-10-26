@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 /**
  * main - Entry point
  * print_alphabet_x10 -> prints the lowercase letters
