@@ -2,9 +2,12 @@
 /**
  * _isalpha - checks if its a lowercase or uppercase
  * @c: character argument
- * Return: return 1 or 0 depending on the alphabet
+ * Return: return 1 or 0 if alphabet is upper or lower
  */
 int _isalpha(int c);
 {
-	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+		return (1);
+	else
+		return (0);
 }
