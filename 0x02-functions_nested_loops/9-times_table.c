@@ -13,9 +13,18 @@ void times_table(void)
 	 {
 		  for(j = 0;j <= 9; j++)
 		  {
-			   product = i*j;
-			   printf("%d",  product);
+			  if (i < 9 && j < 9)
+			  {
+				  _putchar(((i * j) / 10) + '0');
+				  _putchar(((i * j) % 10) + '0');
+				  _putchar(',');
+			  }
+			  else if (i >= 8 && j >= 8)
+			  {
+				  _putchar(((i * j) / 10) + '0');
+				  _putchar(((i * j) % 10) + '0');
+				  _putchar('\n');
+			  }
 		  }
-		  printf("\n");
 	 }
 }
