@@ -1,8 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
-#define SIZE 10
 /**
  *times_table - prints the multiplication table
  */
