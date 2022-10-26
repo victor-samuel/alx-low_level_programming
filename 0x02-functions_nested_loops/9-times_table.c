@@ -6,7 +6,7 @@
  */
 void times_table(void)
 {
-	int i, j, product;
+	int i, j;
 	
 	 /* Generating Multiplication Table */
 	 for(i = 0;i <= 9; i++)
