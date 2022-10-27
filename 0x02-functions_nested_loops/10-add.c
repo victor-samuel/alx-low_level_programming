@@ -1,19 +1,11 @@
 #include "main.h"
 /**
  *add - add two integers
+ *@i - first integer
+ *@j - second integer
  */
 int add(int i , int j)
 {
-	int sum;
-
-	sum = i + j;
-	if (sum <= 9){
-		_putchar(sum);
-	}
-	else 
-	{
-		_putchar(sum + '0');
-	}
-	return (0);
+	return (i + j);
 }
 
