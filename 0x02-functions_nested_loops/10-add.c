@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- *add - add two integers
- *@i - first integer
- *@j - second integer
+ * add - add two integers
+ * @i - the first integer to be added
+ * @j - the second integer to be added
  */
-int add(int i , int j)
+int add(int i, int j)
 {
 	return (i + j);
 }
