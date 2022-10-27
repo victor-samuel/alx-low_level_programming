@@ -14,5 +14,6 @@ int add(int i , int j)
 	{
 		_putchar(sum + '0');
 	}
+	return (0);
 }
 
